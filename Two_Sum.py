@@ -8,7 +8,7 @@ class Solution:
             if complement in num_map:
                 return [num_map[complement], i]
             num_map[num] = i
-        return [] 
+        return []  
     
 sol = Solution()
 nums1 = [2, 7, 11, 15]
